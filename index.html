@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2 class="fit">Fitness</h2>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div>
+            <h1>Get body in <br> <span class="italic">shape</span> & stay <br> healthy</h1>
+            <p>A huge selection of health and fitness content, healthy recipes, and transformation stories to help you get fit and stay fit!</p>
+            <div class="buttons">
+                <a href="#">Join Club Now!</a>
+                <a href="#">Download App</a>
+            </div>
+        </div>
+        <div>
+            <img src="./images/Images 2.png" alt="Fitness Model">
+        </div>
+    
+    
+    <div class="stats">
+        <div>
+            <span>500+</span>
+            Free Workout Videos
+        </div>
+        <div>
+            <span>350+</span>
+            Video Tutorial
+        </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2 class="section-title">Change Your Habits</h2>
+        <p class="section-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        <div class="habits">
+            <div class="habit">
+                <img src="./images/image 3.png" alt="Movement">
+                <h3>Movement</h3>
+                <p>We believe fitness should be accessible to everyone</p>
+            </div>
+            <div class="habit">
+                <img src="./images/image 2.png" alt="Time">
+                <h3>Time</h3>
+                <p>We believe fitness should be accessible to everyone</p>
+            </div>
+            <div class="habit">
+                <img src="./images/image 4.png" alt="Practice">
+                <h3>Practice</h3>
+                <p>We believe fitness should be accessible to everyone</p>
+            </div>
+            <div class="habit">
+                <img src="./images/image 5.png" alt="Weight Loss">
+                <h3>Weight Loss</h3>
+                <p>We believe fitness should be accessible to everyone</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <div>
+            <h2>Run an Extra Mile Easily</h2>
+            <p>Join our program to achieve your goals and maintain a healthy lifestyle.</p>
+          <div class="buttons"><a href="#"  >Join Now</a> </div>
+        </div>
+        <img src="./images/run.jpg" alt="Running">
+    </section>
+    
+    <section class="trainings">
+        <h2 class="section-title">Trainings and Exercises</h2>
+        <div class="training-grid">
+           <img src="./images/exercise1.jpg" alt="Training 1">
+            <img src="./images/exercise2.png" alt="Training 2">
+            <img src="./images/exercise3.png" alt="Training 3">
+            <img src="./images/exercise4.png" alt="Training 1">
+            <img src="./images/exercise5.jpg" alt="Training 2">
+            <img src="./images/exercise6.jpg" alt="Training 3">  
+        </div>
+    </section>
+    
+    <section class="bmi">
+        <h2>BMI Calculator</h2>
+        <p>Check your Body Mass Index (BMI) to ensure you are in the healthy range.</p>
+    </section>
+    <section>
+        <div class="container">
+            <!-- BMI Calculator Section -->
+            <div class="section bmi-calculator">
+                <h3>BMI Calculator Chart</h3>
+                <div class="bmi-calculator-table">
+                    <table>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 – 24.9</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 – 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="bmi-calculator-form">
+                    <h3>Calculate your BMI</h3>
+                    <form>
+                        <label for="height">Height (in cm)</label>
+                        <input type="number" id="height" name="height" required>
+    
+                        <label for="weight">Weight (in kg)</label>
+                        <input type="number" id="weight" name="weight" required>
+    
+                        <label for="sex">Sex</label>
+                        <select id="sex" name="sex" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+    
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" required>
+    
+                        <label for="activity">Select an activity factor</label>
+                        <select id="activity" name="activity" required>
+                            <option value="sedentary">Sedentary (little or no exercise)</option>
+                            <option value="lightly_active">Lightly active (light exercise/sports 1-3 days/week)</option>
+                            <option value="moderately_active">Moderately active (moderate exercise/sports 3-5 days/week)</option>
+                            <option value="very_active">Very active (hard exercise/sports 6-7 days a week)</option>
+                            <option value="extra_active">Extra active (very hard exercise/sports & physical job)</option>
+                        </select>
+    
+                        <input type="submit" value="Calculate">
+                    </form>
+                </div>
+            </div>
+    
+            <!-- Meet Our Team Section -->
+            <div class="section team-section">
+                <h2>Meet Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="./images/trainer1.png" alt="Jerome Bell">
+                        <h4>Jerome Bell</h4>
+                        <p>Trainer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/trainer2.png" alt="Cameron Willi">
+                        <h4>Cameron Willi</h4>
+                        <p>Trainer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/trainer3.png" alt="Dianne Russell">
+                        <h4>Dianne Russell</h4>
+                        <p>Trainer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/trainer4.png" alt="Darrell Steward">
+                        <h4>Darrell Steward</h4>
+                        <p>Trainer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/trainer5.png" alt="Cody Fisher">
+                        <h4>Cody Fisher</h4>
+                        <p>Trainer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/trainer6.png" alt="Theresa Webb">
+                        <h4>Theresa Webb</h4>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div>
+                <h1 class="fit">Fitness</h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. <br> Our mission is to provide the best workout routines, fitness guides, and tips, all delivered by certified professionals.</p>
+            </div>
+            <div>
+                <h3>Get Started</h3>
+                <ul>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <p>All rights reserved ©Fitness 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

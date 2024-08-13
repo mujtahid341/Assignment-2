@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;}
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: #fff;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        background-color: #1e1e1e;
+    }
+    .fit{
+        font-style: italic;
+        color: #ff4400;
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    header nav a {
+        color: #fff;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    header nav a:hover {
+        color: #ff4400;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 50px;
+        background-color: #1e1e1e;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+        line-height: 1.2;
+        font-size: 78px;
+        font-weight: 900;
+    }
+
+    .hero h1 .italic {
+        font-style: italic;
+        
+    }
+
+    .hero p {
+        margin: 20px 0;
+        font-size: 18px;
+        color: #aaa;
+    }
+
+    .buttons {
+        margin-top: 30px;
+    }
+
+    .buttons a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ff4400;
+        padding: 15px 30px;
+        margin-right: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .buttons a:hover {
+        background-color: #ff6611;
+    }
+
+    .hero img {
+        max-width: 400px;
+        border-radius: 10px;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .stats div {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 150px;
+    }
+
+    .stats div span {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ff4400;
+    }
+    .st1{
+        margin-top: 556px;
+        margin-right: 470px;
+    }
+
+    .section-title {
+        text-align: center;
+        margin: 50px 0;
+        font-size: 48px;
+        font-weight: 900;
+    }
+
+    .section-description {
+        text-align: center;
+        margin-bottom: 50px;
+        color: #aaa;
+    }
+
+    .habits {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 50px;
+    }
+
+    .habit {
+        text-align: center;
+        max-width: 200px;
+    }
+
+    .habit img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .cta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        background-color: #1e1e1e;
+    }
+
+    .cta div {
+        max-width: 50%;
+    }
+
+    .cta img {
+        max-width: 40%;
+        border-radius: 10px;
+    }
+
+    .trainings {
+        padding: 50px;
+    }
+
+    .training-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+    .training-grid img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .bmi {
+        text-align: center;
+        padding: 50px;
+        background-color: #1e1e1e;
+        margin-bottom: 30px;
+    }
+
+    .bmi p {
+        margin: 20px 0;
+        color: #aaa;
+    }
+    /* ---- */
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .section {
+        padding: 50px 0;
+        text-align: center;
+    }
+    h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .bmi-calculator, .team-section, .footer {
+        background-color: #222;
+        border-radius: 10px;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    .team-section div{
+        
+    }
+    .bmi-calculator h3, .team-section h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .bmi-calculator-table, .bmi-calculator-form {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        margin: 0 2.5%;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    table th, table td {
+        padding: 10px;
+        border: 1px solid #555;
+    }
+    table th {
+        background-color: #333;
+    }
+    table td {
+        background-color: #444;
+    }
+    .bmi-calculator-form form {
+        text-align: left;
+    }
+    .bmi-calculator-form label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .bmi-calculator-form select, .bmi-calculator-form input[type="number"], .bmi-calculator-form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+    }
+    .team-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .team-member {
+        width: 30%;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .team-member img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .team-member h4 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .footer {
+        text-align: center;
+        background-color: #111;
+        padding: 30px 0;
+    }
+    .footer div {
+        display: inline-block;
+        width: 45%;
+        text-align: left;
+        vertical-align: top;
+    }
+    .footer div h3 {
+        margin-bottom: 15px;
+        
+    }
+    .footer div ul {
+       
+        padding: 0;
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+    .footer div ul li {
+        margin-bottom: 5px;
+       gap: 5px;
+    }
+    .footer div ul li a {
+        color: #999;
+        text-decoration: none;
+    }
+    .footer div ul li a:hover {
+        color: #fff;
+    }
+    .footer p {
+        margin-top: 20px;
+        color: #555;
+    }
+   
+
+    /* Responsive media query for smaller screens */
+    @media (max-width: 768px) {
+        .hero {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+        }
+
+        .hero img {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+
+        .stats {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stats div {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .habits {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cta {
+            flex-direction: column;
+        }
+
+        .cta div, .cta img {
+            max-width: 100%;
+        }
+
+        .training-grid {
+            grid-template-columns: 1fr;
+        }
+    }   
